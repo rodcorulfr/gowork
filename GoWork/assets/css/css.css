@@ -1,0 +1,180 @@
+/* Login Inicio */
+#login {
+align-items: center;
+background-image: url(../../imagens/testet.png);
+font-family: "Tahoma", Geneva, sans-serif;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 100vw;
+height: 100vh;
+margin: 0;
+}
+#login .formulario img{
+padding-top: 5px;
+height: 150px;
+width: auto;
+display: inline-block;
+}
+#login .formulario {
+text-align: center;
+display: block;
+margin: 0;
+position: absolute;
+width: 350px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(54,54,54,0.5);
+padding: 20px;
+border-radius: 20px;
+}
+#login .formulario label{
+color: #000;
+font-weight: bold;
+}
+#login .formulario h5{
+color: #000;
+padding-left: 10px;
+}
+#login a{
+text-decoration: none;
+color: #333;
+}
+#login hr{
+margin-top: 40px;
+color: #000000;
+/*border: 1px solid black; Deixa ele todo preto  */
+}
+/* Login Fim */
+/*Cadastro Inicio*/
+#cadastro {
+font-family: "SulSans", Helvetica, sans-serif;
+background-attachment: fixed;
+/*background-image: url("../../imagens/Banner.png");*/
+/*background-color: #0089ff;*/
+background-image: linear-gradient(to top,#181c27, #0089ff,#b9c8f7);
+/* COR TOP #b9c8f7*/
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 100vw;
+height: 100vh;
+margin: 0;
+}
+#cadastro a{
+text-decoration: none;
+}
+#cadastro .formulario .image{
+text-align: center;
+}
+#cadastro .formulario .sexo{
+text-align: justify;
+margin-top: 10px;
+border: 1px solid #fff;
+padding: 10px;
+width: 30%;
+margin-left: auto;
+margin-right: auto;
+}
+#cadastro .formulario .sexo h4{
+text-align: center;
+margin: 0;
+margin-bottom: 2px;
+}
+#cadastro .formulario .sexo label{
+text-align: center;
+}
+#cadastro .formulario{
+padding: 20px;
+display: block;
+margin: 0;
+position: absolute;
+width: 450px;
+top: 50%;
+left: 50%;
+background-color: rgba(50,50,50,0.3);
+border-radius: 20px;
+transform: translate(-50%, -50%);
+}
+#cadastro .formulario img{
+height: 150px;
+width: auto;
+display: inline-block;
+margin-bottom: 10px;
+}
+#cadastro .formulario label{
+color: #fff;
+font-weight: bold;
+}
+#cadastro .formulario h4{
+margin-top: 3px;
+margin-bottom: 3px;
+color: #fff;
+margin-left: 7px;
+}
+#cadastro .botao {
+width: 95%;
+}
+#cadastro input[class=form]{
+width: 95%;
+}
+/*Cadastro Fim*/
+/* Geral Inicio */
+input[class=form] {
+display: inline-block;
+padding-left: 10px;
+margin-left: auto;
+margin-right: auto;
+width: 95%;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid grey;
+background: #ffffff;
+border-radius: 50px;
+outline: none;
+}
+::placeholder {
+color: #bbbbbb;
+opacity: 1;
+}
+:-ms-input-placeholder {
+color: #bbbbbb;
+}
+:-ms-input-placeholder {
+color: #bbbbbb;
+}
+input[class=form]:focus {
+border: 2px solid #555;
+}
+.botao {
+background-image: linear-gradient(to right, #0089ff, #005fa2);
+border: none;
+font-weight: bold;
+color: #ffffff;
+margin-top: 16px;
+margin-left: auto;
+margin-right: auto;
+font-size: 100%;
+width: 80%;
+height: 30px;
+border-radius: 60px;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 16px;
+margin-bottom: 10px;
+cursor: pointer;
+user-select: none;
+}
+.botao:hover{
+background-image: linear-gradient(to right, #4aabff, #0081dc);
+color: white;
+user-select: none;
+}
+.botao:active{
+background-image: linear-gradient(to right, #4aabff, #4aabff);
+color: #fff;
+user-select: none;
+text-decoration: none;
+}
+/* Geral Fim */
